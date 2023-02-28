@@ -15,7 +15,7 @@ const Banner = () => {
         <img src={banner1} alt='coffee'
         className='hero-banner-image'/>
       <div>
-        <button type="button" button onClick={() => navigate("/cart")}>Check out</button>
+        <button type="button" button onClick={() => navigate("/shop")}>Order Now</button>
         <div className='desc'>
           <h5>Fresh Coffee Beans</h5>
           <p>Locally sourced beans for great taste</p>

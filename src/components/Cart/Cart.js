@@ -29,13 +29,13 @@ const Cart = () => {
       {totalAmount > 0 ? (
         <div className="checkout">
           <p>Subtotal: ${totalAmount}</p>
-          <button onClick={() => navigate("/")}>Continue Shopping</button>
+          <button onClick={() => navigate("/shop")}>Continue Shopping</button>
           <button>Checkout</button>
         </div>
       ) :(
         <div className="checkout">
           <h1>Your Cart is Empty</h1>
-          <button onClick={() => navigate("/")}> Add Items </button>
+          <button onClick={() => navigate("/shop")}> Add Items </button>
         </div>)}
     </div>
   );
