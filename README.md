@@ -1,3 +1,6 @@
+Using React, built a website for a small coffee shop that allows users to quickly add and purchase different drinks. This project required me to display my knowledge of conditional rendering as well as mapping through an array to display content.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
